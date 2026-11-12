@@ -9,16 +9,16 @@ description = "Граф идеи: готовое решение из короб�
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "ideagraph-core @ git+https://github.com/senia-glitch/idea-graph-core.git",
-    "ideagraph-shell @ git+https://github.com/senia-glitch/idea-graph-shell.git",
-    "ideagraph-clarify @ git+https://github.com/senia-glitch/idea-graph-clarify.git",
-    "ideagraph-check @ git+https://github.com/senia-glitch/idea-graph-check.git",
-    "ideagraph-decider @ git+https://github.com/senia-glitch/idea-graph-decider.git",
-    "ideagraph-composer @ git+https://github.com/senia-glitch/idea-graph-composer.git",
-    "ideagraph-export @ git+https://github.com/senia-glitch/idea-graph-export.git",
-    "ideagraph-research @ git+https://github.com/senia-glitch/idea-graph-research.git",
-    "ideagraph-formalize @ git+https://github.com/senia-glitch/idea-graph-formalize.git",
-    "ideagraph-handoff @ git+https://github.com/senia-glitch/idea-graph-handoff.git",
+    "idea-graph-core @ git+https://github.com/senia-glitch/idea-graph-core.git",
+    "idea-graph-shell @ git+https://github.com/senia-glitch/idea-graph-shell.git",
+    "idea-graph-clarify @ git+https://github.com/senia-glitch/idea-graph-clarify.git",
+    "idea-graph-check @ git+https://github.com/senia-glitch/idea-graph-check.git",
+    "idea-graph-decider @ git+https://github.com/senia-glitch/idea-graph-decider.git",
+    "idea-graph-composer @ git+https://github.com/senia-glitch/idea-graph-composer.git",
+    "idea-graph-export @ git+https://github.com/senia-glitch/idea-graph-export.git",
+    "idea-graph-research @ git+https://github.com/senia-glitch/idea-graph-research.git",
+    "idea-graph-formalize @ git+https://github.com/senia-glitch/idea-graph-formalize.git",
+    "idea-graph-handoff @ git+https://github.com/senia-glitch/idea-graph-handoff.git",
 ]
 
 [project.optional-dependencies]

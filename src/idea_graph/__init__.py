@@ -4,14 +4,14 @@ __version__ = "0.1.0"
 
 # Имя репозитория (idea-graph-<имя>) -> имя пакета Python
 PACKAGES = {
-    "core": "ideagraph-core",
-    "shell": "ideagraph-shell",
-    "clarify": "ideagraph-clarify",
-    "check": "ideagraph-check",
-    "decider": "ideagraph-decider",
-    "composer": "ideagraph-composer",
-    "export": "ideagraph-export",
-    "research": "ideagraph-research",
-    "formalize": "ideagraph-formalize",
-    "handoff": "ideagraph-handoff",
+    "core": "idea-graph-core",
+    "shell": "idea-graph-shell",
+    "clarify": "idea-graph-clarify",
+    "check": "idea-graph-check",
+    "decider": "idea-graph-decider",
+    "composer": "idea-graph-composer",
+    "export": "idea-graph-export",
+    "research": "idea-graph-research",
+    "formalize": "idea-graph-formalize",
+    "handoff": "idea-graph-handoff",
 }
