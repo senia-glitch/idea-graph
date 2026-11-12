@@ -18,13 +18,10 @@ dependencies = [
     "ideagraph-export @ git+https://github.com/senia-glitch/idea-graph-export.git",
     "ideagraph-research @ git+https://github.com/senia-glitch/idea-graph-research.git",
     "ideagraph-formalize @ git+https://github.com/senia-glitch/idea-graph-formalize.git",
+    "ideagraph-handoff @ git+https://github.com/senia-glitch/idea-graph-handoff.git",
 ]
 
 [project.optional-dependencies]
-# Репозиторий idea-graph-handoff ещё не опубликован; после публикации перенести в dependencies.
-handoff = [
-    "ideagraph-handoff @ git+https://github.com/senia-glitch/idea-graph-handoff.git",
-]
 test = ["pytest"]
 
 [tool.setuptools.packages.find]
