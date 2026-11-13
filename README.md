@@ -88,6 +88,7 @@ python3 -m venv .venv
 |---|---|---|
 | [idea-graph-core](https://github.com/senia-glitch/idea-graph-core) | Ядро графа: карточки, связи, операции, журнал, отмена | нет |
 | [idea-graph-shell](https://github.com/senia-glitch/idea-graph-shell) | Оболочка: холст, чат, вопросы с вариантами, настройки агентов | нет |
+| [idea-graph-problem](https://github.com/senia-glitch/idea-graph-problem) | Этап 1: проблема слоями (домен → сценарий → проблема → результат) | да |
 | [idea-graph-clarify](https://github.com/senia-glitch/idea-graph-clarify) | Уточнение идеи: один вопрос за ход | да |
 | [idea-graph-check](https://github.com/senia-glitch/idea-graph-check) | Проверка графа: противоречия, дубли, пробелы | частично |
 | [idea-graph-decider](https://github.com/senia-glitch/idea-graph-decider) | Решатель: отвечает на вопросы вместо вас | да |

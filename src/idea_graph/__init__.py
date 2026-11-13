@@ -6,6 +6,7 @@ __version__ = "0.1.0"
 PACKAGES = {
     "core": "idea-graph-core",
     "shell": "idea-graph-shell",
+    "problem": "idea-graph-problem",
     "clarify": "idea-graph-clarify",
     "check": "idea-graph-check",
     "decider": "idea-graph-decider",

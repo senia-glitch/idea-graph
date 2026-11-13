@@ -11,6 +11,7 @@ requires-python = ">=3.10"
 dependencies = [
     "idea-graph-core @ git+https://github.com/senia-glitch/idea-graph-core.git",
     "idea-graph-shell @ git+https://github.com/senia-glitch/idea-graph-shell.git",
+    "idea-graph-problem @ git+https://github.com/senia-glitch/idea-graph-problem.git",
     "idea-graph-clarify @ git+https://github.com/senia-glitch/idea-graph-clarify.git",
     "idea-graph-check @ git+https://github.com/senia-glitch/idea-graph-check.git",
     "idea-graph-decider @ git+https://github.com/senia-glitch/idea-graph-decider.git",
