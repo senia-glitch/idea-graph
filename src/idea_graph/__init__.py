@@ -1,4 +1,4 @@
-"""Мета-пакет «Граф идеи»: сам кода почти не содержит, его задача — потянуть за собой все пакеты."""
+"""Мета-пакет «Граф идеи»: сам кода почти не содержит, его задача — потянуть за собой ядро, оболочку и этап «Проблема»."""
 
 __version__ = "0.1.0"
 
@@ -7,12 +7,4 @@ PACKAGES = {
     "core": "idea-graph-core",
     "shell": "idea-graph-shell",
     "problem": "idea-graph-problem",
-    "clarify": "idea-graph-clarify",
-    "check": "idea-graph-check",
-    "decider": "idea-graph-decider",
-    "composer": "idea-graph-composer",
-    "export": "idea-graph-export",
-    "research": "idea-graph-research",
-    "formalize": "idea-graph-formalize",
-    "handoff": "idea-graph-handoff",
 }
