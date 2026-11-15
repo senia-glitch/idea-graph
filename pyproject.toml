@@ -4,14 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "idea-graph"
-version = "0.1.0"
-description = "Граф идеи: готовое решение из коробки — ставит ядро, оболочку и этап «Проблема» одной командой"
+version = "0.2.0"
+description = "Граф идеи: готовое решение из коробки — ставит ядро, движок, оболочку и два этапа (Разведка, Процессы) одной командой"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "idea-graph-core @ git+https://github.com/senia-glitch/idea-graph-core.git",
+    "idea-graph-engine @ git+https://github.com/senia-glitch/idea-graph-composer.git",
     "idea-graph-shell @ git+https://github.com/senia-glitch/idea-graph-shell.git",
-    "idea-graph-problem @ git+https://github.com/senia-glitch/idea-graph-problem.git",
+    "idea-graph-recon @ git+https://github.com/senia-glitch/idea-graph-research.git",
+    "idea-graph-processes @ git+https://github.com/senia-glitch/idea-graph-problem.git",
 ]
 
 [project.optional-dependencies]

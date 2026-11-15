@@ -1,10 +1,12 @@
-"""Мета-пакет «Граф идеи»: сам кода почти не содержит, его задача — потянуть за собой ядро, оболочку и этап «Проблема»."""
+"""Мета-пакет «Граф идеи»: сам кода почти не содержит, его задача — потянуть за собой ядро, движок, оболочку и этапы."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
-# Имя репозитория (idea-graph-<имя>) -> имя пакета Python
+# Имя пакета Python -> репозиторий на GitHub (senia-glitch/<репозиторий>)
 PACKAGES = {
-    "core": "idea-graph-core",
-    "shell": "idea-graph-shell",
-    "problem": "idea-graph-problem",
+    "idea-graph-core": "idea-graph-core",
+    "idea-graph-engine": "idea-graph-composer",
+    "idea-graph-shell": "idea-graph-shell",
+    "idea-graph-recon": "idea-graph-research",
+    "idea-graph-processes": "idea-graph-problem",
 }
